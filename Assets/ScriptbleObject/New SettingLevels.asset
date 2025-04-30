@@ -1,0 +1,752 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8e3c3a1f266f14d9e3430724471d26, type: 3}
+  m_Name: New SettingLevels
+  m_EditorClassIdentifier: 
+  levels:
+  - numberLevel: 0
+    fullBasket:
+    - items: 0600000003000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 0
+    countWinSlot: 2
+    countWinItem: 1
+    minSteps: 2
+  - numberLevel: 1
+    fullBasket:
+    - items: 00000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 1
+    minSteps: 1
+  - numberLevel: 2
+    fullBasket:
+    - items: 0100000001000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 2
+    minSteps: 2
+  - numberLevel: 3
+    fullBasket:
+    - items: 020000000200000002000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 3
+    minSteps: 3
+  - numberLevel: 4
+    fullBasket:
+    - items: 03000000030000000300000003000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 4
+    minSteps: 4
+  - numberLevel: 5
+    fullBasket:
+    - items: 0400000004000000040000000400000004000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 5
+    minSteps: 5
+  - numberLevel: 6
+    fullBasket:
+    - items: 050000000500000005000000050000000500000005000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 6
+    minSteps: 6
+  - numberLevel: 7
+    fullBasket:
+    - items: 06000000060000000600000006000000060000000600000006000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 7
+    minSteps: 7
+  - numberLevel: 8
+    fullBasket:
+    - items: 0100000000000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    - checkCountItem: 1
+    countWinSlot: 2
+    countWinItem: 1
+    minSteps: 2
+  - numberLevel: 9
+    fullBasket:
+    - items: 01000000010000000000000000000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    - checkCountItem: 1
+    countWinSlot: 2
+    countWinItem: 2
+    minSteps: 4
+  - numberLevel: 10
+    fullBasket:
+    - items: 00000000010000000100000000000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    - checkCountItem: 1
+    countWinSlot: 2
+    countWinItem: 2
+    minSteps: 4
+  - numberLevel: 11
+    fullBasket:
+    - items: 01000000000000000100000000000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    - checkCountItem: 1
+    countWinSlot: 2
+    countWinItem: 2
+    minSteps: 4
+  - numberLevel: 12
+    fullBasket:
+    - items: 010000000100000001000000000000000000000000000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    - checkCountItem: 1
+    countWinSlot: 2
+    countWinItem: 3
+    minSteps: 6
+  - numberLevel: 13
+    fullBasket:
+    - items: 000000000100000000000000010000000000000001000000
+      checkCountItem: 0
+    emptyBasket:
+    - checkCountItem: 1
+    - checkCountItem: 1
+    countWinSlot: 2
+    countWinItem: 3
+    minSteps: 6
+  - numberLevel: 14
+    fullBasket:
+    - items: 000000000100000002000000000000000100000002000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    - checkCountItem: 1
+    countWinSlot: 3
+    countWinItem: 2
+    minSteps: 6
+  - numberLevel: 15
+    fullBasket:
+    - items: 00000000
+      checkCountItem: 1
+    - items: 00000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 1
+    countWinItem: 2
+    minSteps: 1
+  - numberLevel: 16
+    fullBasket:
+    - items: 01000000
+      checkCountItem: 1
+    - items: 01000000
+      checkCountItem: 1
+    - items: 01000000
+      checkCountItem: 1
+    emptyBasket: []
+    countWinSlot: 1
+    countWinItem: 3
+    minSteps: 2
+  - numberLevel: 17
+    fullBasket:
+    - items: 0200000002000000
+      checkCountItem: 1
+    - items: 0200000002000000
+      checkCountItem: 1
+    - items: 02000000
+      checkCountItem: 1
+    emptyBasket: []
+    countWinSlot: 1
+    countWinItem: 5
+    minSteps: 3
+  - numberLevel: 18
+    fullBasket:
+    - items: 030000000300000003000000
+      checkCountItem: 1
+    - items: 030000000300000003000000
+      checkCountItem: 1
+    - items: 03000000
+      checkCountItem: 1
+    emptyBasket: []
+    countWinSlot: 1
+    countWinItem: 7
+    minSteps: 4
+  - numberLevel: 19
+    fullBasket:
+    - items: 040000000400000004000000
+      checkCountItem: 1
+    - items: 0400000004000000
+      checkCountItem: 1
+    - items: 0400000004000000
+      checkCountItem: 1
+    emptyBasket: []
+    countWinSlot: 1
+    countWinItem: 7
+    minSteps: 4
+  - numberLevel: 20
+    fullBasket:
+    - items: 0100000002000000
+      checkCountItem: 1
+    - items: 0200000003000000
+      checkCountItem: 1
+    - items: 0300000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 0
+    countWinSlot: 3
+    countWinItem: 2
+    minSteps: 4
+  - numberLevel: 21
+    fullBasket:
+    - items: 0100000001000000
+      checkCountItem: 1
+    - items: 0200000002000000
+      checkCountItem: 1
+    - items: 0100000002000000
+      checkCountItem: 1
+    emptyBasket: []
+    countWinSlot: 2
+    countWinItem: 3
+    minSteps: 2
+  - numberLevel: 22
+    fullBasket:
+    - items: 0100000003000000
+      checkCountItem: 1
+    - items: 0100000002000000
+      checkCountItem: 1
+    - items: 0300000002000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 0
+    countWinSlot: 3
+    countWinItem: 2
+    minSteps: 4
+  - numberLevel: 23
+    fullBasket:
+    - items: 010000000200000003000000
+      checkCountItem: 1
+    - items: 030000000200000001000000
+      checkCountItem: 1
+    - items: 020000000100000003000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 3
+    countWinItem: 3
+    minSteps: 8
+  - numberLevel: 24
+    fullBasket:
+    - items: 01000000010000000200000003000000
+      checkCountItem: 1
+    - items: 03000000020000000200000001000000
+      checkCountItem: 1
+    - items: 02000000010000000300000003000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 3
+    countWinItem: 4
+    minSteps: 10
+  - numberLevel: 25
+    fullBasket:
+    - items: 0100000001000000020000000300000001000000
+      checkCountItem: 1
+    - items: 0200000003000000020000000200000001000000
+      checkCountItem: 1
+    - items: 0300000002000000010000000300000003000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 3
+    countWinItem: 5
+    minSteps: 15
+  - numberLevel: 26
+    fullBasket:
+    - items: 010000000100000002000000020000000300000001000000
+      checkCountItem: 1
+    - items: 020000000300000002000000030000000200000001000000
+      checkCountItem: 1
+    - items: 030000000200000001000000010000000300000003000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 3
+    countWinItem: 6
+    minSteps: 20
+  - numberLevel: 27
+    fullBasket:
+    - items: 01000000010000000200000002000000030000000300000001000000
+      checkCountItem: 1
+    - items: 02000000030000000200000001000000030000000200000001000000
+      checkCountItem: 1
+    - items: 03000000020000000100000002000000010000000300000003000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 3
+    countWinItem: 7
+    minSteps: 48
+  - numberLevel: 28
+    fullBasket:
+    - items: 0100000004000000
+      checkCountItem: 1
+    - items: 0200000003000000
+      checkCountItem: 1
+    - items: 0300000001000000
+      checkCountItem: 1
+    - items: 0400000002000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 4
+    countWinItem: 2
+    minSteps: 5
+  - numberLevel: 29
+    fullBasket:
+    - items: 040000000200000003000000
+      checkCountItem: 1
+    - items: 030000000200000001000000
+      checkCountItem: 1
+    - items: 020000000100000003000000
+      checkCountItem: 1
+    - items: 040000000400000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 4
+    countWinItem: 3
+    minSteps: 9
+  - numberLevel: 30
+    fullBasket:
+    - items: 04000000020000000100000003000000
+      checkCountItem: 1
+    - items: 03000000020000000300000001000000
+      checkCountItem: 1
+    - items: 02000000040000000100000003000000
+      checkCountItem: 1
+    - items: 04000000020000000400000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 4
+    countWinItem: 4
+    minSteps: 18
+  - numberLevel: 31
+    fullBasket:
+    - items: 0400000002000000010000000100000003000000
+      checkCountItem: 1
+    - items: 0300000002000000040000000300000001000000
+      checkCountItem: 1
+    - items: 0200000004000000020000000100000003000000
+      checkCountItem: 1
+    - items: 0400000002000000030000000400000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 4
+    countWinItem: 5
+    minSteps: 25
+  - numberLevel: 32
+    fullBasket:
+    - items: 030000000400000002000000010000000100000003000000
+      checkCountItem: 1
+    - items: 030000000200000004000000020000000300000001000000
+      checkCountItem: 1
+    - items: 020000000400000002000000010000000100000003000000
+      checkCountItem: 1
+    - items: 040000000200000003000000040000000400000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 4
+    countWinItem: 6
+    minSteps: 33
+  - numberLevel: 0
+    fullBasket:
+    - items: 03000000040000000200000001000000020000000100000003000000
+      checkCountItem: 1
+    - items: 03000000020000000400000002000000010000000300000001000000
+      checkCountItem: 1
+    - items: 02000000040000000300000002000000010000000100000003000000
+      checkCountItem: 1
+    - items: 04000000020000000400000003000000040000000400000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 4
+    countWinItem: 7
+    minSteps: 66
+  - numberLevel: 0
+    fullBasket:
+    - items: 0200000004000000
+      checkCountItem: 1
+    - items: 0400000003000000
+      checkCountItem: 1
+    - items: 0300000001000000
+      checkCountItem: 1
+    - items: 0200000000000000
+      checkCountItem: 1
+    - items: 0000000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 5
+    countWinItem: 2
+    minSteps: 6
+  - numberLevel: 0
+    fullBasket:
+    - items: 000000000200000003000000
+      checkCountItem: 1
+    - items: 030000000200000001000000
+      checkCountItem: 1
+    - items: 000000000100000003000000
+      checkCountItem: 1
+    - items: 040000000400000001000000
+      checkCountItem: 1
+    - items: 000000000400000002000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 5
+    countWinItem: 3
+    minSteps: 15
+  - numberLevel: 0
+    fullBasket:
+    - items: 04000000000000000100000003000000
+      checkCountItem: 1
+    - items: 03000000000000000300000001000000
+      checkCountItem: 1
+    - items: 02000000000000000100000003000000
+      checkCountItem: 1
+    - items: 04000000020000000400000001000000
+      checkCountItem: 1
+    - items: 02000000040000000200000000000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 5
+    countWinItem: 4
+    minSteps: 24
+  - numberLevel: 0
+    fullBasket:
+    - items: 0400000002000000000000000100000003000000
+      checkCountItem: 1
+    - items: 0300000000000000040000000300000001000000
+      checkCountItem: 1
+    - items: 0200000004000000020000000100000000000000
+      checkCountItem: 1
+    - items: 0000000002000000030000000400000001000000
+      checkCountItem: 1
+    - items: 0000000001000000020000000300000004000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 5
+    countWinItem: 5
+    minSteps: 30
+  - numberLevel: 0
+    fullBasket:
+    - items: 030000000400000000000000000000000100000003000000
+      checkCountItem: 1
+    - items: 030000000200000004000000020000000000000001000000
+      checkCountItem: 1
+    - items: 000000000400000002000000010000000100000003000000
+      checkCountItem: 1
+    - items: 040000000200000003000000000000000400000001000000
+      checkCountItem: 1
+    - items: 000000000200000001000000030000000200000004000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 5
+    countWinItem: 6
+    minSteps: 49
+  - numberLevel: 0
+    fullBasket:
+    - items: 00000000040000000200000001000000020000000100000003000000
+      checkCountItem: 1
+    - items: 00000000020000000400000002000000010000000300000001000000
+      checkCountItem: 1
+    - items: 00000000040000000300000002000000010000000100000003000000
+      checkCountItem: 1
+    - items: 00000000020000000400000003000000040000000400000001000000
+      checkCountItem: 1
+    - items: 03000000030000000200000004000000000000000000000000000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 5
+    countWinItem: 7
+    minSteps: 55
+  - numberLevel: 0
+    fullBasket:
+    - items: 0500000002000000
+      checkCountItem: 1
+    - items: 0400000003000000
+      checkCountItem: 1
+    - items: 0300000001000000
+      checkCountItem: 1
+    - items: 0200000005000000
+      checkCountItem: 1
+    - items: 0000000001000000
+      checkCountItem: 1
+    - items: 0000000004000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 6
+    countWinItem: 2
+    minSteps: 8
+  - numberLevel: 0
+    fullBasket:
+    - items: 050000000000000003000000
+      checkCountItem: 1
+    - items: 030000000200000001000000
+      checkCountItem: 1
+    - items: 050000000100000003000000
+      checkCountItem: 1
+    - items: 040000000400000001000000
+      checkCountItem: 1
+    - items: 050000000400000002000000
+      checkCountItem: 1
+    - items: 000000000200000000000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 6
+    countWinItem: 3
+    minSteps: 16
+  - numberLevel: 0
+    fullBasket:
+    - items: 05000000000000000100000003000000
+      checkCountItem: 1
+    - items: 03000000000000000300000001000000
+      checkCountItem: 1
+    - items: 05000000000000000100000003000000
+      checkCountItem: 1
+    - items: 04000000020000000400000001000000
+      checkCountItem: 1
+    - items: 02000000040000000200000000000000
+      checkCountItem: 1
+    - items: 05000000050000000400000002000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 6
+    countWinItem: 4
+    minSteps: 32
+  - numberLevel: 0
+    fullBasket:
+    - items: 0400000002000000000000000100000003000000
+      checkCountItem: 1
+    - items: 0300000000000000040000000300000001000000
+      checkCountItem: 1
+    - items: 0200000005000000050000000100000000000000
+      checkCountItem: 1
+    - items: 0000000002000000030000000400000001000000
+      checkCountItem: 1
+    - items: 0000000005000000050000000300000004000000
+      checkCountItem: 1
+    - items: 0100000002000000050000000400000002000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 6
+    countWinItem: 5
+    minSteps: 38
+  - numberLevel: 0
+    fullBasket:
+    - items: 030000000500000000000000000000000100000003000000
+      checkCountItem: 1
+    - items: 030000000200000004000000020000000500000001000000
+      checkCountItem: 1
+    - items: 000000000400000005000000010000000100000003000000
+      checkCountItem: 1
+    - items: 040000000200000003000000000000000400000005000000
+      checkCountItem: 1
+    - items: 000000000200000001000000030000000200000004000000
+      checkCountItem: 1
+    - items: 040000000500000002000000000000000500000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 6
+    countWinItem: 6
+    minSteps: 66
+  - numberLevel: 0
+    fullBasket:
+    - items: 00000000040000000500000001000000020000000100000003000000
+      checkCountItem: 1
+    - items: 05000000020000000400000002000000010000000300000001000000
+      checkCountItem: 1
+    - items: 05000000040000000300000002000000050000000100000003000000
+      checkCountItem: 1
+    - items: 00000000020000000400000003000000040000000400000001000000
+      checkCountItem: 1
+    - items: 05000000030000000200000004000000000000000000000000000000
+      checkCountItem: 1
+    - items: 02000000050000000300000001000000050000000000000000000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 6
+    countWinItem: 7
+    minSteps: 125
+  - numberLevel: 0
+    fullBasket:
+    - items: 0500000006000000
+      checkCountItem: 1
+    - items: 0400000002000000
+      checkCountItem: 1
+    - items: 0300000001000000
+      checkCountItem: 1
+    - items: 0200000003000000
+      checkCountItem: 1
+    - items: 0000000001000000
+      checkCountItem: 1
+    - items: 0000000004000000
+      checkCountItem: 1
+    - items: 0600000005000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 7
+    countWinItem: 2
+    minSteps: 9
+  - numberLevel: 0
+    fullBasket:
+    - items: 050000000600000003000000
+      checkCountItem: 1
+    - items: 030000000200000001000000
+      checkCountItem: 1
+    - items: 060000000100000003000000
+      checkCountItem: 1
+    - items: 040000000400000001000000
+      checkCountItem: 1
+    - items: 050000000400000002000000
+      checkCountItem: 1
+    - items: 060000000000000000000000
+      checkCountItem: 1
+    - items: 020000000000000005000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 7
+    countWinItem: 3
+    minSteps: 18
+  - numberLevel: 0
+    fullBasket:
+    - items: 05000000000000000100000003000000
+      checkCountItem: 1
+    - items: 06000000000000000600000001000000
+      checkCountItem: 1
+    - items: 05000000000000000100000003000000
+      checkCountItem: 1
+    - items: 04000000020000000600000001000000
+      checkCountItem: 1
+    - items: 02000000040000000200000006000000
+      checkCountItem: 1
+    - items: 05000000050000000400000002000000
+      checkCountItem: 1
+    - items: 03000000030000000400000000000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 7
+    countWinItem: 4
+    minSteps: 32
+  - numberLevel: 0
+    fullBasket:
+    - items: 0600000002000000000000000100000003000000
+      checkCountItem: 1
+    - items: 0300000006000000040000000300000001000000
+      checkCountItem: 1
+    - items: 0200000005000000060000000100000000000000
+      checkCountItem: 1
+    - items: 0000000002000000030000000400000001000000
+      checkCountItem: 1
+    - items: 0000000005000000060000000300000004000000
+      checkCountItem: 1
+    - items: 0600000002000000050000000400000002000000
+      checkCountItem: 1
+    - items: 0400000000000000050000000500000001000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 7
+    countWinItem: 5
+    minSteps: 46
+  - numberLevel: 0
+    fullBasket:
+    - items: 030000000500000000000000000000000100000006000000
+      checkCountItem: 1
+    - items: 030000000200000006000000020000000500000001000000
+      checkCountItem: 1
+    - items: 000000000400000006000000010000000100000003000000
+      checkCountItem: 1
+    - items: 040000000200000003000000000000000400000005000000
+      checkCountItem: 1
+    - items: 000000000200000006000000030000000200000004000000
+      checkCountItem: 1
+    - items: 040000000500000002000000000000000500000001000000
+      checkCountItem: 1
+    - items: 060000000300000004000000050000000100000006000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 7
+    countWinItem: 6
+    minSteps: 68
+  - numberLevel: 0
+    fullBasket:
+    - items: 00000000040000000500000006000000020000000100000003000000
+      checkCountItem: 1
+    - items: 05000000020000000400000006000000010000000300000001000000
+      checkCountItem: 1
+    - items: 05000000040000000300000002000000050000000100000006000000
+      checkCountItem: 1
+    - items: 00000000020000000400000003000000040000000600000001000000
+      checkCountItem: 1
+    - items: 05000000030000000200000004000000000000000600000000000000
+      checkCountItem: 1
+    - items: 02000000050000000300000001000000050000000000000000000000
+      checkCountItem: 1
+    - items: 06000000010000000200000003000000040000000000000006000000
+      checkCountItem: 1
+    emptyBasket:
+    - checkCountItem: 1
+    countWinSlot: 7
+    countWinItem: 7
+    minSteps: 130
+  startRandomLevel: 40
